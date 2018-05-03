@@ -7,10 +7,10 @@
         href="./ITNG.ico">
     <title>SETrackITNG 2019</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="./Shared/header.css" />
     <link rel="stylesheet" href="./Shared/mainContent.css" />
     <link rel="stylesheet" href="./Shared/footer.css" />
@@ -28,60 +28,30 @@
 
     </script>
     <style>
-        /*[INICIO] Index2.html -------------------------------------------*/
-        main .presentation {
-            margin-bottom: 10px;
-        }
-
-        main table, th, td {
-            border: 4px solid transparent;
-        }
-
-            main table tbody tr {
-                text-align: left;
-            }
-
-        main p.paragraph_style_1 {
+        /*[INICIO] proceedings.html -------------------------------------------*/
+        main p.paragraph_style_2 {
             text-align: justify;
+            margin-bottom: 5px;
         }
 
-        main .important-dates table {
-            background-color: rgb(235, 235, 235);
-            display: table;
-            margin: 5px auto;
+        main ul.proceedings-papers {
+            text-align: left;
         }
 
-        .submission {
-            position: relative;
-            top: -20px;
-            /*left: 70%;*/
-        }
-
-        main .important-dates caption {
-            /*padding-top: .75rem;
-                padding-bottom: .75rem;
-                color: #6c757d;*/
-            text-align: center;
-            caption-side: top !important;
-            background-color: rgb(235, 235, 235);
-        }
-
-        main .important-dates, main .important-dates caption {
-            color: #237A23;
-            font-weight: 500;
-            font-size: small;
-        }
-        /*[FIM] Index2.html -------------------------------------------*/
-        @media (max-width: 912px) {
-            .submission {
-                position: relative;
-                top: 0px;
-                margin: 5px;
-            }
-        }
-            .subtitulo-footer-primeiro, .important-dates, .important-dates caption {
+            main ul.proceedings-papers > li {
                 color: #237A23;
+                font-weight: 500;
             }
+
+            main ul.proceedings-papers li > p {
+                color: #000;
+            }
+
+        /*[FIM] proceedings.html -------------------------------------------*/
+
+        .subtitulo-footer-primeiro, .important-dates, .important-dates caption {
+            color: #237A23;
+        }
     </style>
 </head>
 <body>
@@ -93,11 +63,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="./CFP2.html">CFP</a>
-                    <a class="nav-item nav-link" href="./proceedings2.html">Proceedings</a>
-                    <a class="nav-item nav-link" href="./schedule2.html">Schedule</a>
-                    <a class="nav-item nav-link" href="./organization2.html">Organization</a>
+                    <a class="nav-item nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./CFP.html">CFP</a>
+                    <a class="nav-item nav-link active" href="#">Proceedings</a>
+                    <a class="nav-item nav-link" href="./schedule.html">Schedule</a>
+                    <a class="nav-item nav-link" href="./organization.html">Organization</a>
                     <a class="nav-item nav-link" target="_blank" href="https://www.softconf.com/h/itng2018/">Submissions</a>
                 </div>
             </div>
@@ -105,40 +75,30 @@
         <div class="track-bumper">(THIS WEBSITE <b>IS NOT</B> OFFICIAL OR VALID) ITNG Software Engineering Track 2019 </div>
     </header>
     <main>
-        <div class="presentation">
-            <img src="home_files/lasvegas2017.jpg" height="300" width="100%" />
-        </div>
-        <div class="container home-information">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 track-goal">
-                    <p class="paragraph_style_1">
-                        The software engineering track at ITNG 2019 is intended to be a forum for researchers and practitioners
-                        from the industry and the academia to present and discuss innovations and solutions
-                        to concrete software engineering challenges. It is an opportunity for exchanging new ideas, fostering long-term innovations,
-                        networking and forging collaborations for addressing software engineering research directions.
-                    </p>
+        <div class="container">
+            <div class="page-title">
+                <h3>Accepted Papers</h3>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 info-presentation">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h4 class="section-title">Submissions</h4>
+                    <div>
+                        <p class="paragraph_style_2">
+                            We accept two types of submissions:
+                        </p>  
+                        <ul class="proceedings-papers">
+                            <li>Technical Papers:<p>up to 6 pages will be reviewed and selected for inclusion in the proceedings and presentation during the Software Engineering Track at ITNG 2018.</p></li>
+                            <li>Short Papers:<p>up to 2 pages will be reviewed and selected for inclusion in the proceedings and presentation during the Software Engineering Track at ITNG 2018. 
+                                Software Engineering Track Accepted Papers Accepted papers</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 important-dates">
-                    <table>
-
-                        <caption>Important Dates</caption>
-
-                        <tr><td>Paper submission due:</td><td>November 03, 2017</td></tr>
-                        <tr><td>Authors Notification:</td><td>December 22, 2017</td></tr>
-                        <tr><td>Advance Registration:</td><td>January 12, 2018</td></tr>
-                        <tr><td>Camera-ready copy:</td><td>January 12, 2018</td></tr>
-                        <tr><td>SE track days:</td><td>April 16-18, 2018</td></tr>
-
-                    </table>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <a class="submission" href="https://www.softconf.com/h/itng2018/" target="_blank">
-                        <img src="home_files/submit_button.gif" alt="submit" border="0" width="130" height="50">
-                    </a>
+                <div class="col-lg-6 col-md-6 col-sm-6 v-separator">
+                    <h4 class="section-title">Acepted Papers</h4>
                 </div>
             </div>
-        </div>
-    </main>
+        </div></main>
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -172,9 +132,9 @@
 
 
         </script>
-        <p class="flag-counter"style="text-align: center;">
+        <p class="flag-counter" style="text-align: center;">
             &nbsp;
-            <a href="http://info.flagcounter.com/YrFJ"><img src="http://s09.flagcounter.com/count2/YrFJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_16/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></img></a>
+            <a href="http://info.flagcounter.com/YrFJ"><img src="http://s09.flagcounter.com/count2/YrFJ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_16/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" /></img></a>
             <!--<a href="http://info.flagcounter.com/jbNY"><img src="http://s01.flagcounter.com/count2/jbNY/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_15/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>-->
             <!--<a href="http://info.flagcounter.com/jbNY"><img src="http://s01.flagcounter.com/count2/jbNY/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_15/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
         </p>
